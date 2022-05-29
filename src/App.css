@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  color: rgb(255, 255, 255);
+}
+.coin-row {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: lightgray 1px solid;
+}
+
+.negative-price {
+  color: red;
+}
+.positive-price {
+  color: lightgreen;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+}
+.market-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.Container {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  text-align: center;
+  height: 50px;
+  color: #f32424;
+  width: 300px;
+  min-width: 200px;
+}
+
+.coin-row:hover {
+  transform: scale(1, 1);
+}
